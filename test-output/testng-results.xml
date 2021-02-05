@@ -1,28 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28627" started-at="2021-02-01T14:55:48Z" finished-at="2021-02-01T14:56:16Z">
+  <suite name="Default suite" duration-ms="19773" started-at="2021-02-05T12:48:25Z" finished-at="2021-02-05T12:48:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28627" started-at="2021-02-01T14:55:48Z" finished-at="2021-02-01T14:56:16Z">
+    <test name="Default test" duration-ms="19773" started-at="2021-02-05T12:48:25Z" finished-at="2021-02-05T12:48:45Z">
       <class name="com.api.testCases">
-        <test-method status="PASS" signature="testGetUsers()[pri:1, instance:com.api.testCases@1bce4f0a]" name="testGetUsers" duration-ms="18029" started-at="2021-02-01T14:55:48Z" finished-at="2021-02-01T14:56:06Z">
+        <test-method status="PASS" signature="updateUser()[pri:5, instance:com.api.testCases@604ed9f0]" name="updateUser" duration-ms="19657" started-at="2021-02-05T12:48:25Z" finished-at="2021-02-05T12:48:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGetUsers -->
-        <test-method status="PASS" signature="addnewUser()[pri:2, instance:com.api.testCases@1bce4f0a]" name="addnewUser" duration-ms="5656" started-at="2021-02-01T14:56:06Z" finished-at="2021-02-01T14:56:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addnewUser -->
-        <test-method status="PASS" signature="getUser()[pri:3, instance:com.api.testCases@1bce4f0a]" name="getUser" duration-ms="953" started-at="2021-02-01T14:56:11Z" finished-at="2021-02-01T14:56:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getUser -->
-        <test-method status="PASS" signature="testDelete()[pri:4, instance:com.api.testCases@1bce4f0a]" name="testDelete" duration-ms="3719" started-at="2021-02-01T14:56:12Z" finished-at="2021-02-01T14:56:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDelete -->
+        </test-method> <!-- updateUser -->
       </class> <!-- com.api.testCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
